@@ -2,7 +2,7 @@ import { conexaoApi } from './conexaoApi.js';
 
 const lista = document.querySelector('[data-lista]');
 
-function construirCard(titulo, descricao, url, imagem) {
+export default function construirCard(titulo, descricao, url, imagem) {
   const video = document.createElement('li');
   video.className = 'videos__item';
 
