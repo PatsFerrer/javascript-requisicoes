@@ -83,6 +83,20 @@
       "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 12
+    },
+    {
+      "titulo": "Next.js 14 Full Course 2024",
+      "descricao": "1,4 mi de visualizações",
+      "url": "https://www.youtube.com/embed/wm5gMKuwSYk",
+      "imagem": "https://avatars.githubusercontent.com/u/153423955",
+      "id": 13
+    },
+    {
+      "titulo": "Projeto da NLW em Astro + ViewTransitions!",
+      "descricao": "4 visualizações",
+      "url": "https://www.youtube.com/embed/y_TLXMS0X4c",
+      "imagem": "https://avatars.githubusercontent.com/u/153423955",
+      "id": 14
     }
   ]
 }
