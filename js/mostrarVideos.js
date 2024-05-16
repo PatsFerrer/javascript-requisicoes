@@ -21,9 +21,13 @@ export default function construirCard(titulo, descricao, url, imagem) {
 }
 
 async function listarVideos() {
-  const listaApi = await conexaoApi.listarVideos();
+  try {
+    const listaApi = await conexaoApi.listarVideos();
 
-  listaApi.forEach(element => lista.appendChild(construirCard(element.titulo, element.descricao, element.url, element.imagem)));
+    listaApi.forEach(element => lista.appendChild(construirCard(element.titulo, element.descricao, element.url, element.imagem)));
+  } catch (error) {
+    lista.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de vídeos</h2>`
+  }
 }
 
 listarVideos();
