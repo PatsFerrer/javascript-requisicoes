@@ -4,6 +4,7 @@
   "description": "<p align=\"center\"> <img src=\"https://imgur.com/J3hD21O.png\" alt=\"Javascript: criando requisições\"> </p>",
   "main": "index.js",
   "scripts": {
+    "dev": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
